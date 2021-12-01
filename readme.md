@@ -17,15 +17,15 @@ Nesse desafio, você vai ter que criar uma aplicação react para implementar a 
 ## Como rodar a api
 dentro da pasta do projeto, você vai rodar
 $ yarn
-para baixar as dependencias, e 
+para baixar as dependencias, e
 $ yarn start
-para rodar a api em localhost:3000
+para rodar a api em localhost:4000
 
 ## Rotas da API:
 | Verbo | url | def | Payload esperado|
 |--|--|--|--|
-|GET |http://localhost:3000/clients| para listar todos os clientes| - |
-|POST |http://localhost:3000/clients| para criar um cliente novo |{"name":  [[Customer name]]}
+|GET |http://localhost:4000/clients| para listar todos os clientes| - |
+|POST |http://localhost:4000/clients| para criar um cliente novo |{"name":  [[Customer name]]}
 
 ## Observações
 - Você pode inspecionar os elementos do figma para pegar as propriedades css dos elementos
